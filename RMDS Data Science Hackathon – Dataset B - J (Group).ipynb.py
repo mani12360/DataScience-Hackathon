@@ -1128,7 +1128,7 @@ baseline_table = pd.DataFrame(baseline_results)
 
 display(baseline_table.round(2))
 
-# Expected hospitalisation saving from successful vaccination
+# Expected hospitalisation savings from successful vaccination
 hospital_saving = unvaccinated_cost - vaccinated_cost
 
 # Theoretical probability threshold for allocating a vaccine
